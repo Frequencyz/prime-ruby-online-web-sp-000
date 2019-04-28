@@ -1,3 +1,5 @@
-
+def prime?()
+  
+end
    
   
