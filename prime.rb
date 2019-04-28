@@ -1,8 +1,8 @@
-def prime?(num)
-  if num < 1 || num == 1
+def prime?(int)
+  if int < 1 || int == 1
     return false
-  elsif num > 1
-    for n in 2...(num)
+  elsif int > 1
+    for i in 2...(int)
       if (num % n) == 0
         return false
       end
