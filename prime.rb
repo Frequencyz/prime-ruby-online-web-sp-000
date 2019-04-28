@@ -3,7 +3,7 @@ def prime?(int)
     return false
   elsif int > 1
     for i in 2...(int)
-      if (num % n) == 0
+      if (numt % n) == 0
         return false
       end
     end
